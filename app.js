@@ -158,6 +158,7 @@ function clickHandler(e) {
 
     if (isPalindrome) {
       outputEl.innerText = " Voila, Your Birthday Is A Palindrome";
+      outputE2.innerHTML= ""
     } else {
       let [counter, nextDate] = getNextPlaindromeDate(date);
       outputEl.innerText = `Nay, Your Birthday Is Not A Palindrome.` 
